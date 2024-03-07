@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".powerstage">
+
+    <TextView
+        android:id="@+id/powerstage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POWERSTAGE"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/v4s"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/spdc"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ducati Powerstage adalah salah satu fitur yang diperkenalkan oleh Ducati pada beberapa model motor sport mereka. Fitur ini memungkinkan pengendara untuk mengakses dan mengoptimalkan performa mesin motor mereka dengan menggunakan sistem manajemen mesin yang canggih. Melalui Powerstage, pengendara dapat mengontrol berbagai parameter mesin seperti respons gas, kekuatan output, dan karakteristik pengiriman tenaga sesuai dengan preferensi pribadi mereka atau situasi berkendara yang berbeda. Fitur ini memberikan pengendara kemampuan untuk menyesuaikan pengalaman berkendara mereka, meningkatkan kinerja motor, dan mengoptimalkan respons mesin sesuai kebutuhan."
+        android:padding="16dp"
+        android:layout_below="@+id/v4s"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/shr"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:text="@string/share"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:layout_marginTop="280dp"
+        android:text="@string/checkout"
+        android:layout_marginLeft="270dp"
+
+        />
+
+</RelativeLayout>

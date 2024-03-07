@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".g310r">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="G310 R"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/v4s"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/f900r"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sepeda motor ini didukung oleh mesin satu silinder segaris berkapasitas 313cc, yang menawarkan keseimbangan yang baik antara performa dan efisiensi bahan bakar. Mesin ini menghasilkan tenaga yang cukup untuk penggunaan sehari-hari di perkotaan atau untuk perjalanan jarak pendek. G310R juga dilengkapi dengan berbagai fitur modern seperti ABS (Anti-lock Braking System) dan panel instrumen digital yang informatif."
+        android:padding="16dp"
+        android:layout_below="@+id/v4s"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/shr"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:text="@string/share"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:layout_marginTop="280dp"
+        android:text="@string/checkout"
+        android:layout_marginLeft="270dp"
+        />
+
+</RelativeLayout>

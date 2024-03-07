@@ -1,0 +1,613 @@
+{
+  "name": "homepage",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "ntlGTiYVtYI3a35Bn0d4qI",
+    "node": "3:36",
+    "version": "5275733030",
+    "component-id": "66cb49f4d9f0924a60a5d81ace5f807db3d843c4"
+  },
+  "default": "Homepage",
+  "documentation": "test",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "YLX CLOTCH’S"
+      },
+      {
+        "type": "text",
+        "id": "WELCOME TO YLX CLOTCH’S We Provide Cool stuff That You Need !!!"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 1"
+      },
+      {
+        "type": "image",
+        "id": "bape dekat1 1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 2"
+      },
+      {
+        "type": "image",
+        "id": "jamm 1"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 3"
+      },
+      {
+        "type": "image",
+        "id": "Sepatu 1"
+      },
+      {
+        "type": "text",
+        "id": "FIND UR SHOES THERE !!! Items : 5 Rate : 4.8 5"
+      },
+      {
+        "type": "text",
+        "id": "FIND UR OUTWEAR THERE !!! Items : 5 Rate : 4.6/5"
+      },
+      {
+        "type": "text",
+        "id": "FIND UR WATCH THERE !!! Items : 5 Rate : 4.9/5"
+      },
+      {
+        "type": "vector",
+        "id": "SEPATU"
+      },
+      {
+        "type": "vector",
+        "id": "SEPATU1"
+      },
+      {
+        "type": "vector",
+        "id": "SEPATU2"
+      },
+      {
+        "type": "text",
+        "id": "BUY NOW"
+      },
+      {
+        "type": "text",
+        "id": "BUY NOW1"
+      },
+      {
+        "type": "text",
+        "id": "BUY NOW2"
+      }
+    ],
+    "modes": {
+      "Homepage": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "YLX CLOTCH’S",
+              "WELCOME TO YLX CLOTCH’S We Provide Cool stuff That You Need !!!",
+              "Ellipse 1",
+              "Rectangle 1",
+              "bape dekat1 1",
+              "Rectangle 2",
+              "jamm 1",
+              "Rectangle 3",
+              "Sepatu 1",
+              "FIND UR SHOES THERE !!! Items : 5 Rate : 4.8 5",
+              "FIND UR OUTWEAR THERE !!! Items : 5 Rate : 4.6/5",
+              "FIND UR WATCH THERE !!! Items : 5 Rate : 4.9/5",
+              "SEPATU",
+              "SEPATU1",
+              "SEPATU2",
+              "BUY NOW",
+              "BUY NOW1",
+              "BUY NOW2"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "YLX CLOTCH’S",
+            "drop-shadow": {
+              "color": {
+                "alpha": 0.24705882352941178,
+                "hue": 0.0,
+                "saturation": 0.0,
+                "value": 0.0
+              },
+              "blur": 4.0,
+              "offset-x": 0.0,
+              "offset-y": 4.0,
+              "spread": 0.0,
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 7.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 78.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 217.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 39.0
+              }
+            },
+            "font-weight": 900.0,
+            "text-content": "YLX CLOTCH’S",
+            "italic": true,
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 28.0,
+            "line-height": 1.2102272851126534,
+            "typeface": "Inter"
+          },
+          {
+            "id": "WELCOME TO YLX CLOTCH’S We Provide Cool stuff That You Need !!!",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 21.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 117.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "WELCOME TO YLX CLOTCH’S\nWe Provide Cool stuff That You Need !!!",
+            "italic": true,
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Ellipse 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 703.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 494.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 255.0
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "Rectangle 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 381.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 107.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 94.0
+              }
+            },
+            "vector-content": "rectangle_1.svg"
+          },
+          {
+            "id": "bape dekat1 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 7.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 381.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 108.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 94.0
+              }
+            },
+            "image-content": "bape_dekat1_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 495.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 107.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 94.0
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          },
+          {
+            "id": "jamm 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 495.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 107.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 94.0
+              }
+            },
+            "image-content": "jamm_1.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "Rectangle 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 267.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 107.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 94.0
+              }
+            },
+            "vector-content": "rectangle_3.svg"
+          },
+          {
+            "id": "Sepatu 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 8.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 267.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 107.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 94.0
+              }
+            },
+            "image-content": "sepatu_1.png",
+            "scale": "cover"
+          },
+          {
+            "id": "FIND UR SHOES THERE !!! Items : 5 Rate : 4.8 5",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 123.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 267.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "FIND UR SHOES THERE !!!\nItems : 5\nRate : 4.8 5",
+            "italic": true,
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "FIND UR OUTWEAR THERE !!! Items : 5 Rate : 4.6/5",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 115.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 381.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "FIND UR OUTWEAR THERE !!!\nItems : 5\nRate : 4.6/5",
+            "italic": true,
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "FIND UR WATCH THERE !!! Items : 5 Rate : 4.9/5",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 123.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 495.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "FIND UR WATCH THERE !!!\nItems : 5\nRate : 4.9/5",
+            "italic": true,
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 10.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "SEPATU",
+            "border-radius": 3.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 129.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 546.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 66.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 21.0
+              }
+            },
+            "vector-content": "sepatu.svg"
+          },
+          {
+            "id": "SEPATU1",
+            "border-radius": 3.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 129.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 314.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 66.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 21.0
+              }
+            },
+            "vector-content": "sepatu1.svg"
+          },
+          {
+            "id": "SEPATU2",
+            "border-radius": 3.0,
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 129.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 428.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 66.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 21.0
+              }
+            },
+            "vector-content": "sepatu2.svg"
+          },
+          {
+            "id": "BUY NOW",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 141.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 319.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 11.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "BUY NOW",
+            "italic": true,
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 8.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "BUY NOW1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 141.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 551.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 11.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "BUY NOW",
+            "italic": true,
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 8.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "BUY NOW2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 141.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 433.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 43.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 11.0
+              }
+            },
+            "font-weight": 500.0,
+            "text-content": "BUY NOW",
+            "italic": true,
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 8.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Homepage",
+      "size": {
+        "width": 390.0,
+        "height": 844.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

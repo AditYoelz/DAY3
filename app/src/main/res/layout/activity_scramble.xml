@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".scramble">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCRAMBLE"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/v4s"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/scramble"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ducati Scrambler adalah salah satu model motor dari perusahaan otomotif Italia, Ducati. Motor ini terinspirasi dari gaya motor off-road klasik yang populer pada tahun 1960-an dan 1970-an. Ducati Scrambler menampilkan desain yang santai dan minimalis dengan aksen retro yang menarik perhatian. Meskipun terlihat klasik, Ducati Scrambler dilengkapi dengan teknologi modern untuk kenyamanan dan kinerja yang optimal. Motor ini cocok untuk pengendara yang mencari gaya hidup yang santai namun tetap ingin merasakan sensasi berkendara yang menyenangkan di jalan raya maupun di jalanan perkotaan."
+        android:padding="16dp"
+        android:layout_below="@+id/v4s"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/shr"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:text="@string/share"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:layout_marginTop="280dp"
+        android:text="@string/checkout"
+        android:layout_marginLeft="270dp"
+        />
+
+</RelativeLayout>

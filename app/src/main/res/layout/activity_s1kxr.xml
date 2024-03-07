@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".s1kxr">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="S1000XR"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/v4s"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/s1kxr"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BMW S1000XR adalah sepeda motor sport touring yang diproduksi oleh BMW Motorrad. Diluncurkan pada tahun 2015, S1000XR merupakan gabungan yang unik antara kinerja sepeda motor sport dan kenyamanan touring jarak jauh. Sepeda motor ini ditenagai oleh mesin empat silinder segaris 999cc yang sama dengan yang digunakan pada S1000RR, namun dengan penyetelan yang berbeda untuk memberikan torsi yang lebih besar di putaran bawah dan tengah."
+        android:padding="16dp"
+        android:layout_below="@+id/v4s"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/shr"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:text="@string/share"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:layout_marginTop="280dp"
+        android:text="@string/checkout"
+        android:layout_marginLeft="270dp"
+        />
+
+</RelativeLayout>

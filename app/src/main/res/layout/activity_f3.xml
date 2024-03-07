@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".f3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="F3"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/v4s"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/f3"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MV Agusta F3 adalah sepeda motor supersport yang diproduksi oleh MV Agusta, perusahaan sepeda motor Italia. F3 terkenal karena desainnya yang memukau dan performa tinggi yang dikombinasikan dengan teknologi canggih. Motor ini dilengkapi dengan mesin tiga silinder yang kuat dan responsif, serta fitur-fitur modern seperti sistem kontrol traksi, ABS (Anti-lock Braking System), dan berbagai mode berkendara yang dapat disesuaikan. MV Agusta F3 menawarkan pengalaman berkendara yang mengasyikkan dan menantang bagi para penggemar sepeda motor yang mencari sensasi balap di jalan raya."
+        android:padding="16dp"
+        android:layout_below="@+id/v4s"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/shr"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:text="@string/share"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:layout_marginTop="280dp"
+        android:text="@string/checkout"
+        android:layout_marginLeft="270dp"
+        />
+
+</RelativeLayout>

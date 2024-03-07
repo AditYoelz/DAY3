@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TamaStore</string>
+    <string name="tamasstore">TamasStore</string>
+    <string name="discover">DISCOVER</string>
+    <string name="v4s">V4S</string>
+    <string name="show_more">SHOW MORE</string>
+    <string name="v4_s">V4S</string>
+    <string name="power_stage">Power Stage</string>
+    <string name="s1000xr">S1000XR</string>
+    <string name="f900r">F900R</string>
+    <string name="r_18">R 18</string>
+    <string name="g310r">G310R</string>
+    <string name="s1000rr">S1000RR</string>
+    <string name="brutale">BRUTALE</string>
+    <string name="f9">F9</string>
+    <string name="rush">RUSH</string>
+    <string name="f3">F3</string>
+    <string name="lxp">LXP</string>
+    <string name="share">Share</string>
+    <string name="checkout">Checkout</string>
+    <string name="hypermotard">HYPERMOTARD</string>
+    <string name="dv4s">Ducati V4S adalah model superbike yang diproduksi oleh perusahaan otomotif Italia, Ducati. Motor ini didukung oleh mesin V4 1103cc yang menghasilkan tenaga besar dan kinerja luar biasa. Desainnya sangat aerodinamis dengan teknologi canggih yang memberikan pengendara pengalaman berkendara yang dinamis dan responsif. Fitur-fitur canggih seperti kontrol traksi, ABS, dan sistem suspensi semi-aktif membuatnya menjadi salah satu motor sport paling diinginkan di pasaran. Ducati V4S adalah kombinasi sempurna antara kekuatan, keindahan, dan teknologi terkini yang memenuhi kebutuhan para penggemar motor yang mencari performa tinggi dan gaya yang elegan.</string>
+    <string name="ylx_garage">Ylx Garage</string>
+</resources>

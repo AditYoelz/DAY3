@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".mv" >
+
+    <ImageView
+        android:id="@+id/brutale"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/brutale"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/brutale"
+        android:textSize="20sp"
+        android:layout_alignEnd="@+id/brutale"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/brutale"
+        android:layout_marginLeft="10dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#FFA447"/>
+
+    <ImageView
+        android:id="@+id/rush"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rush"
+        android:layout_toRightOf="@+id/brutale"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/rush"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/rush"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/brutale"
+        android:layout_marginLeft="235dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#FFA447"
+        />
+
+    <ImageView
+        android:id="@+id/dragster"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/dragster"
+        android:layout_below="@id/brutale"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dragster"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#FFA447"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRAGSTER"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/f3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/f3"
+        android:layout_toRightOf="@+id/dragster"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/f3"
+        android:layout_marginLeft="235dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#FFA447"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/f3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="330dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/lxp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/lxp"
+        android:layout_below="@id/dragster"
+        android:layout_marginTop="80dp"
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lxp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#FFA447"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lxp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignEnd="@+id/lxp"
+
+        />
+</RelativeLayout>

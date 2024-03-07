@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ylx"
+        android:label="@string/ylx_garage"
+        android:roundIcon="@drawable/ylx"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TamaStore"
+        tools:targetApi="31">
+        <activity
+            android:name=".r18"
+            android:exported="false" />
+        <activity
+            android:name=".g310r"
+            android:exported="false" />
+        <activity
+            android:name=".f900r"
+            android:exported="false" />
+        <activity
+            android:name=".s1kxr"
+            android:exported="false" />
+        <activity
+            android:name=".s1krr"
+            android:exported="false" />
+        <activity
+            android:name=".lxp"
+            android:exported="false" />
+        <activity
+            android:name=".f3"
+            android:exported="false" />
+        <activity
+            android:name=".dragster"
+            android:exported="false" />
+        <activity
+            android:name=".rush"
+            android:exported="false" />
+        <activity
+            android:name=".brutale"
+            android:exported="false" />
+        <activity
+            android:name=".daviel"
+            android:exported="false" />
+        <activity
+            android:name=".scramble"
+            android:exported="false" />
+        <activity
+            android:name=".hypermotard"
+            android:exported="false" />
+        <activity
+            android:name=".powerstage"
+            android:exported="false" />
+        <activity
+            android:name=".v4s"
+            android:exported="false" />
+        <activity
+            android:name=".bmw"
+            android:exported="false" />
+        <activity
+            android:name=".mv"
+            android:exported="false" />
+        <activity
+            android:name=".ducati"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

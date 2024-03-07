@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    tools:context=".ducati">
+
+    <ImageView
+        android:id="@+id/sport"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/v4s"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/v4_s"
+        android:textSize="20sp"
+        android:layout_alignEnd="@+id/sport"
+        />
+
+    <Button
+        android:id="@+id/btn1d"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sport"
+        android:layout_marginLeft="10dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#820300"/>
+
+    <ImageView
+        android:id="@+id/spd"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/spdc"
+        android:layout_toRightOf="@+id/sport"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/power_stage"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/spd"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spd"
+        android:layout_marginLeft="235dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#820300"
+        />
+
+    <ImageView
+        android:id="@+id/hpmt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/hypermotard"
+        android:layout_below="@id/sport"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hpmt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#820300"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hypermotard"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="30dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/scm"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/scramble"
+        android:layout_toRightOf="@+id/hpmt"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scm"
+        android:layout_marginLeft="235dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#820300"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scramble"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="280dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/dvl"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/daviel"
+        android:layout_below="@id/hpmt"
+        android:layout_marginTop="80dp"
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dvl"
+        android:layout_marginLeft="10dp"
+        android:text="@string/show_more"
+        android:backgroundTint="#820300"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daviel"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="475dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignEnd="@+id/dvl"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hypermotard">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hypermotard"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/v4s"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/hypermotard"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hypermotard adalah salah satu lini motor dari Ducati yang terkenal dengan gaya supermoto yang agresif dan performa tinggi. Motor ini dirancang untuk memberikan pengalaman berkendara yang seru di berbagai kondisi jalan, termasuk di perkotaan, jalan berliku, dan lintasan off-road ringan. Hypermotard menampilkan desain yang agresif dengan posisi berkendara yang tegak, suspensi yang tinggi, dan ban yang lebar. Ini memungkinkan pengendara untuk memanfaatkan manuverabilitas tinggi dan akselerasi yang kuat. Fitur-fitur canggih seperti kontrol traksi, ABS, dan mode berkendara yang dapat disesuaikan membuat Hypermotard cocok untuk pengendara yang mencari pengalaman berkendara yang dinamis dan penuh adrenalin."
+        android:padding="16dp"
+        android:layout_below="@+id/v4s"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/shr"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:text="@string/share"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:layout_marginTop="280dp"
+        android:text="@string/checkout"
+        android:layout_marginLeft="270dp"
+        />
+
+</RelativeLayout>

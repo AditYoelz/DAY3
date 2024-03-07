@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".v4s">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="V4S"
+        android:textStyle="bold"
+        android:textSize="40sp"/>
+
+    <ImageView
+        android:id="@+id/v4s"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/v4s"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ducati V4S adalah model superbike yang diproduksi oleh perusahaan otomotif Italia, Ducati. Motor ini didukung oleh mesin V4 1103cc yang menghasilkan tenaga besar dan kinerja luar biasa. Desainnya sangat aerodinamis dengan teknologi canggih yang memberikan pengendara pengalaman berkendara yang dinamis dan responsif. Fitur-fitur canggih seperti kontrol traksi, ABS, dan sistem suspensi semi-aktif membuatnya menjadi salah satu motor sport paling diinginkan di pasaran. Ducati V4S adalah kombinasi sempurna antara kekuatan, keindahan, dan teknologi terkini yang memenuhi kebutuhan para penggemar motor yang mencari performa tinggi dan gaya yang elegan."
+        android:padding="16dp"
+        android:layout_below="@+id/v4s"
+        android:textStyle="italic"
+        />
+
+    <Button
+        android:id="@+id/shr"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:text="@string/share"
+        android:layout_marginTop="280dp"/>
+
+    <Button
+        android:id="@+id/checkout"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v4s"
+        android:layout_marginTop="280dp"
+        android:text="@string/checkout"
+        android:layout_marginLeft="270dp"
+        />
+
+</RelativeLayout>
